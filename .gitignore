@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+secrets.json
+npm-debug.log
+keyfile.json
+tmp
+public/generated/

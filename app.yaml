@@ -1,0 +1,11 @@
+runtime: custom
+env: flex
+resources:
+  cpu: 1
+  memory_gb: 2
+manual_scaling:
+  instances: 1
+
+# Update these to reflect your setup.
+env_variables:
+  GCLOUD_STORAGE_BUCKET: carbon-parser
